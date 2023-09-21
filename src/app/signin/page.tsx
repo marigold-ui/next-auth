@@ -23,7 +23,12 @@ const SignInPage = () => {
                         onClick={() => signIn('github', { callbackUrl })}
                     >
                         Continue with github
-
+                    </Button>
+                    <Button
+                        className='w-full'
+                        onClick={() => signIn('google', { callbackUrl })}
+                    >
+                        Continue with google
                     </Button>
                 </div>
             </div>
